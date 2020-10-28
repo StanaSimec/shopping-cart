@@ -1,0 +1,7 @@
+export const ADD_TO_CART = "ADD_TO_CART";
+export const INCREASE_COUNT_IN_CART = "INCREASE_COUNT_IN_CART";
+export const DECREASE_COUNT_IN_CART = "DECREASE_COUNT_IN_CART";
+export const ADD_ORDER = "ADD_ORDER";
+export const SHOP_LOAD = "SHOP_LOAD";
+export const ORDERS_LOAD = "ORDERS_LOAD";
+export const ERROR_CATCH = "ERROR_CATCH";

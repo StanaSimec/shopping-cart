@@ -23,7 +23,7 @@ class ConnectedShop extends React.Component {
             );
 
         return (
-            <div className="container">
+            <div className="container" style={{maxWidth:700}}>
                 <div>{items}</div>
             </div>
         );

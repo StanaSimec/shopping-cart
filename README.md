@@ -6,7 +6,7 @@ This project was created for training purposes.
 * React hook form - form validation
 * Redux - state management library
 * Axios - browser http client
-* MirageJS - testing http server
+* MirageJS - http server for mocking data
 * Bulma - CSS framework
 
 ## Run project

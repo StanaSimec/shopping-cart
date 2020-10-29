@@ -2,14 +2,14 @@ import React from "react";
 
 function OrderContact(props) {
     return (
-        <div className="card" style={{marginTop: 20}}>
+        <div className="card" style={{marginTop: 10}}>
             <div className="card-content">
-                <p className="title is-4">Contact</p>
+                <p className="title is-3">Contact:</p>
                 <div className="content">
-                    <p>First name: {props.contact.firstName}</p>
-                    <p>Last name: {props.contact.lastName}</p>
-                    <p>Street: {props.contact.street}</p>
-                    <p>City: {props.contact.city}</p>
+                    <p><span className="title is-5">First name:</span> {props.contact.firstName}</p>
+                    <p><span className="title is-5">Last name:</span> {props.contact.lastName}</p>
+                    <p><span className="title is-5">Street:</span> {props.contact.street}</p>
+                    <p><span className="title is-5">City:</span> {props.contact.city}</p>
                 </div>
             </div>
         </div>

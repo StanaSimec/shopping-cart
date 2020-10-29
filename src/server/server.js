@@ -50,7 +50,7 @@ export function makeServer({environment = "test"} = {}) {
             })
             server.create("order", {
                 contact: {
-                    firstName: "Jim",
+                    firstName: "Jim (example order)",
                     lastName: "Morris",
                     street: "Main street 123",
                     city: "Tampa Bay"
@@ -62,7 +62,7 @@ export function makeServer({environment = "test"} = {}) {
                         price: '105 000',
                         category: 'SPORT',
                         img: 'https://cdn.pixabay.com/photo/2014/10/24/08/31/motorcycle-500910_1280.jpg',
-                        count: 2
+                        count: 1
                     },
                     {
                         id: 1,
@@ -70,7 +70,7 @@ export function makeServer({environment = "test"} = {}) {
                         price: '210 000',
                         category: 'TRAVEL',
                         img: 'https://cdn.pixabay.com/photo/2014/11/18/03/54/motorcycle-535595_1280.jpg',
-                        count: 1
+                        count: 2
                     }
                 ]
             })

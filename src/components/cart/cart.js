@@ -18,9 +18,13 @@ function ConnectedCart(props) {
     const totalView = total > 0 ? <h3 style={{marginTop: 10}} className="title is-4">Total: {total} Kč</h3> :
         <h3 className="has-text-centered title is-4">Cart is empty</h3>;
     return (
-        <div className="container" style={{marginTop: 20}}>
-            <div>{items}</div>
-            <div>{totalView}</div>
+        <div className="columns is-centered">
+            <div className="column is-half">
+                <div className="container" style={{margin: 20}}>
+                    <div>{items}</div>
+                    <div>{totalView}</div>
+                </div>
+            </div>
         </div>
     );
 }

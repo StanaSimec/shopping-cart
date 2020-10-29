@@ -27,8 +27,8 @@ function Navbar(props) {
                 <div className="navbar-start">
                     <Link className="navbar-item" to="/">Shop</Link>
                     <Link className="navbar-item" to="/cart">Cart</Link>
-                    <Link className="navbar-item" to="/form">Make order</Link>
-                    <Link className="navbar-item" to="/orders">All orders</Link>
+                    <Link className="navbar-item" to="/form">Finish order</Link>
+                    <Link className="navbar-item" to="/orders">Your orders</Link>
                 </div>
             </div>
         </nav>

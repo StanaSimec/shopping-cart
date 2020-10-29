@@ -23,8 +23,10 @@ class ConnectedShop extends React.Component {
             );
 
         return (
-            <div className="container" style={{maxWidth:700}}>
-                <div>{items}</div>
+            <div className="columns is-centered">
+                <div className="column is-half">
+                    <div className="container">{items}</div>
+                </div>
             </div>
         );
     }

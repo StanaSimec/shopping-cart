@@ -14,9 +14,13 @@ class ConnectedOrders extends React.Component {
 
     render() {
         return (
-            <React.Fragment>
-                <OrderItemList orders={this.props.orders}/>
-            </React.Fragment>
+            <div className="columns is-centered">
+                <div className="column is-half">
+                    <div className="container">
+                        <OrderItemList orders={this.props.orders}/>
+                    </div>
+                </div>
+            </div>
         );
     }
 }
